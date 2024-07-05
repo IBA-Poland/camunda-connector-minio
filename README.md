@@ -28,7 +28,7 @@ The MinIO  Connector supports next operation types in the operation type dropdow
 3. Delete file
 
 Operation type:
-![Operation-type!](./assets/image/Operation-type.png)
+![Operation-type!](./assets/images/Operation-type.png)
 
 
 ## Upload file
@@ -37,11 +37,11 @@ Usage:
 1.Populate the  Authentication section as previously described.
 2.Select “Upload file” from the Operation dropdown.
 3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to a local file.
-![upload-file!](./assets/image/upload-file.png)
+![upload-file!](./assets/images/upload-file.png)
 
 As a result of this operation, Camunda upload a file of the process running in a bucket MinIO.
 
-![upload-to-minio!](./assets/image/upload-to-minio.png)
+![upload-to-minio!](./assets/images/upload-to-minio.png)
 
 
 ## Download file
@@ -50,7 +50,7 @@ Usage:
 1.Populate the  Authentication section as previously described.
 2.Select “Download file” from the Operation dropdown.
 3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to save the file.
-![download-file!](./assets/image/download-file.png)
+![download-file!](./assets/images/download-file.png)
 
 As a result of this operation, the system saves the file.
 
@@ -62,4 +62,4 @@ This operation is used to delete files that are present in a MinIO bucket.
 2.Select “Download file” from the Operation dropdown.
 3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for deleting.
 
-![delete-file!](./assets/image/delete-file.png)
+![delete-file!](./assets/images/delete-file.png)
