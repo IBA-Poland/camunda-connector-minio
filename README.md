@@ -20,6 +20,7 @@ In the section “Output mapping” return data depending on the type of process
 
 
 ## Example
+
 ![Example!](./assets/images/Example.png)
 
 The MinIO  Connector supports next operation types in the operation type dropdown list:
@@ -28,6 +29,7 @@ The MinIO  Connector supports next operation types in the operation type dropdow
 3. Delete file
 
 Operation type:
+
 ![Operation-type!](./assets/images/Operation-type.png)
 
 
@@ -37,6 +39,7 @@ Usage:
 1.Populate the  Authentication section as previously described.
 2.Select “Upload file” from the Operation dropdown.
 3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to a local file.
+
 ![upload-file!](./assets/images/upload-file.png)
 
 As a result of this operation, Camunda upload a file of the process running in a bucket MinIO.
@@ -50,6 +53,7 @@ Usage:
 1.Populate the  Authentication section as previously described.
 2.Select “Download file” from the Operation dropdown.
 3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to save the file.
+
 ![download-file!](./assets/images/download-file.png)
 
 As a result of this operation, the system saves the file.
