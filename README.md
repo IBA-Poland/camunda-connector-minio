@@ -36,9 +36,9 @@ Operation type:
 ## Upload file
 This operation allows you to upload files from your local system or servers to your MinIO bucket directly through Camunda processes, simplifying data management. 
 Usage:
-1.Populate the  Authentication section as previously described.
-2.Select “Upload file” from the Operation dropdown.
-3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to a local file.
+1. Populate the  Authentication section as previously described.
+2. Select “Upload file” from the Operation dropdown.
+3. In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to a local file.
 
 ![upload-file!](./assets/images/upload-file.png)
 
@@ -50,9 +50,9 @@ As a result of this operation, Camunda upload a file of the process running in a
 ## Download file
 This operation allows downloading objects from your MinIO bucket to your local system or server, providing straightforward access for further processing. 
 Usage:
-1.Populate the  Authentication section as previously described.
-2.Select “Download file” from the Operation dropdown.
-3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to save the file.
+1. Populate the  Authentication section as previously described.
+2. Select “Download file” from the Operation dropdown.
+3. In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for your upload and the path to save the file.
 
 ![download-file!](./assets/images/download-file.png)
 
@@ -62,8 +62,8 @@ As a result of this operation, the system saves the file.
 ## Delete file
 
 This operation is used to delete files that are present in a MinIO bucket. 
-1.Populate the  Authentication section as previously described.
-2.Select “Download file” from the Operation dropdown.
-3.In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for deleting.
+1. Populate the  Authentication section as previously described.
+2. Select “Download file” from the Operation dropdown.
+3. In the Request Details section, set the Bucket name of your bucket, provide a file name with extension for deleting.
 
 ![delete-file!](./assets/images/delete-file.png)
