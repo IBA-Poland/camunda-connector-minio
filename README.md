@@ -14,7 +14,8 @@ The process of verifying the identity of a connecting client. MinIO requires cli
 To use a MinIO Connector in your process, either change the type of existing task using the wrench-shaped Change type context menu, or create a new Connector task using the Append Connector context menu. Follow Camunda guide on using Connectors to learn more.
 In the properties block “Authentication” set url, Access Key and Secret Key to MinIO.
 All these parameters are mandatory. 
-![Authentication!(./assets/images/Authentication.png)
+
+![Authentication!](./assets/images/Authentication.png)
 
 In the section “Output mapping” return data depending on the type of process performed by the robot, that can then be used as variables in the Camunda process.
 
